@@ -1,6 +1,7 @@
 # Create project directory
 mkdir jupyter-data-analysis-toolkit
 cd jupyter-data-analysis-toolkit
+echo "3.11" > python.version
 
 # Install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
