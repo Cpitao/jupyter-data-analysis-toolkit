@@ -1,1 +1,1 @@
-# jupyter-data-analysis-toolkit
+# Jupyter Data Analysis Toolkit
