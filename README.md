@@ -1,3 +1,5 @@
+![banner](https://github.com/dmoskalewicz/jupyter-data-analysis-toolkit/blob/main/images/banner.png)
+
 # Jupyter Data Analysis Toolkit
 Setup script that creates a Jupyter data analysis environment
 
