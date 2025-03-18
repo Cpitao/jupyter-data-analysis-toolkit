@@ -4,7 +4,11 @@ cd jupyter-data-analysis-toolkit
 
 # Install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
-export PATH=$PATH:~/.local/bin 
+
+# Conditionally add ~/.local/bin to PATH
+if [[ ":$PATH:" != *":$HOME/.local/bin:"* ]]; then
+  export PATH="$PATH:$HOME/.local/bin"
+fi
 
 # Install dependencies
 uv venv --python 3.11
