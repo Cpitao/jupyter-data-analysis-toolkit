@@ -1,4 +1,5 @@
 # Jupyter Data Analysis Toolkit
+Setup script for a Jupyter data analysis environment 
 
 ## Setup
 
